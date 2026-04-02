@@ -1,0 +1,171 @@
+/* :root {
+  --crema: #f4efe6;
+  --tinta: #0c0c0c;
+  --oro: #b89a5a;
+  --borde: 1px solid var(--tinta);
+}
+
+body {
+  background-color: var(--crema);
+  color: var(--tinta);
+  font-family: 'Cormorant Garamond', serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.contenedor {
+  max-width: 800px;
+  margin: 0 auto;
+  border: var(--borde);
+  padding: 40px;
+  min-height: 90vh;
+}
+
+.cabecera {
+  border-bottom: var(--borde);
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.tarjeta {
+  border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.2s ease-out;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.nombre {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.detalle {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--oro);
+}
+
+.boton {
+  background: none;
+  border: var(--borde);
+  color: var(--tinta);
+  padding: 8px 15px;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.7rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-left: 10px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boton:hover {
+  background: var(--tinta);
+  color: var(--crema);
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+}
+
+.entrada {
+  background: none;
+  border: none;
+  border-bottom: var(--borde);
+  padding: 10px 0;
+  font-size: 1.1rem;
+  outline: none;
+  font-family: inherit;
+  color: var(--tinta);
+}
+
+.etiqueta {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  color: var(--oro);
+}
+
+.velo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(12, 12, 12, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-contenido {
+  background: var(--crema);
+  border: var(--borde);
+  padding: 40px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 10px 10px 0px var(--tinta);
+}
+
+.modal-titulo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.modal-texto {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.8rem;
+  margin-bottom: 25px;
+  color: var(--tinta);
+}
+
+.modal-botones {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+@keyframes desvanecer-quemado {
+  0% { transform: scale(1); opacity: 1; filter: brightness(1); }
+  50% { background-color: #ff4500; filter: brightness(1.5); }
+  100% { transform: scale(0.95); opacity: 0; filter: brightness(0); }
+}
+
+.tarjeta-quemada {
+  animation: desvanecer-quemado 0.6s ease-out forwards;
+  pointer-events: none;
+} */
